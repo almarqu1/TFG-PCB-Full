@@ -5,10 +5,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Esquema electrónico de la PCB"
+Date "2021-08-13"
 Rev ""
-Comp ""
+Comp "Álvaro Martínez"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -18,8 +18,8 @@ $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U1
 U 1 1 60FAC7F6
 P 3500 8500
-F 0 "U1" H 3500 6611 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 3500 6520 50  0000 C CNN
+F 0 "U1" H 3350 7450 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 3350 7350 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3500 8500 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3500 8500 50  0001 C CNN
 	1    3500 8500
@@ -2242,7 +2242,7 @@ F 3 "" H 9500 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 8650 9150 8650
+	9000 8650 9050 8650
 $Comp
 L Device:R_Small R4
 U 1 1 6108B301
@@ -2376,4 +2376,19 @@ Text GLabel 12750 1800 1    50   Input ~ 0
 COL12
 Text GLabel 13500 1800 1    50   Input ~ 0
 COL13
+Wire Wire Line
+	9050 8650 9050 8750
+Wire Wire Line
+	9050 8750 9100 8750
+Connection ~ 9050 8650
+Wire Wire Line
+	9050 8650 9150 8650
+Text GLabel 9100 8750 2    50   Input ~ 0
+CC1
+Wire Wire Line
+	7600 8350 7300 8350
+Text GLabel 7300 8350 0    50   Input ~ 0
+CC1
+NoConn ~ 9000 8350
+NoConn ~ 7600 8650
 $EndSCHEMATC
