@@ -2391,4 +2391,8 @@ Text GLabel 7300 8350 0    50   Input ~ 0
 CC1
 NoConn ~ 9000 8350
 NoConn ~ 7600 8650
+Text Label 2700 8000 0    50   ~ 0
+D_P
+Text Label 2650 8100 0    50   ~ 0
+D_N
 $EndSCHEMATC
