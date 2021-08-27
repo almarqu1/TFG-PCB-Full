@@ -2395,4 +2395,5 @@ Text Label 2700 8000 0    50   ~ 0
 D_P
 Text Label 2650 8100 0    50   ~ 0
 D_N
+NoConn ~ 2900 7600
 $EndSCHEMATC
