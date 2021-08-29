@@ -2468,10 +2468,10 @@ Wire Wire Line
 	1450 6150 1600 6150
 Connection ~ 1450 6150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 6137F5CC
 P 1450 6700
-F 0 "#PWR?" H 1450 6450 50  0001 C CNN
+F 0 "#PWR0101" H 1450 6450 50  0001 C CNN
 F 1 "GND" H 1455 6527 50  0000 C CNN
 F 2 "" H 1450 6700 50  0001 C CNN
 F 3 "" H 1450 6700 50  0001 C CNN
@@ -2482,4 +2482,93 @@ Wire Wire Line
 	1450 6600 1450 6700
 Wire Wire Line
 	950  6700 950  6750
+Wire Wire Line
+	1200 5950 1200 5900
+$Comp
+L power:+5V #PWR?
+U 1 1 613F6851
+P 1200 5900
+F 0 "#PWR?" H 1200 5750 50  0001 C CNN
+F 1 "+5V" H 1215 6073 50  0000 C CNN
+F 2 "" H 1200 5900 50  0001 C CNN
+F 3 "" H 1200 5900 50  0001 C CNN
+	1    1200 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 9400 4450 9400
+Wire Wire Line
+	4100 9500 4450 9500
+Wire Wire Line
+	4100 9600 4450 9600
+Wire Wire Line
+	4100 9700 4450 9700
+Wire Wire Line
+	4100 9800 4450 9800
+Wire Wire Line
+	4100 9900 4450 9900
+Text GLabel 4450 9900 2    50   Input ~ 0
+COL0
+Text GLabel 4450 9800 2    50   Input ~ 0
+COL1
+Text GLabel 4450 9700 2    50   Input ~ 0
+COL2
+Wire Wire Line
+	4100 8200 4450 8200
+Text GLabel 4450 8200 2    50   Input ~ 0
+COL6
+Text GLabel 4450 8300 2    50   Input ~ 0
+COL7
+Wire Wire Line
+	4100 8300 4450 8300
+Text GLabel 4450 8400 2    50   Input ~ 0
+COL8
+Text GLabel 4450 8500 2    50   Input ~ 0
+COL9
+Text GLabel 4450 8700 2    50   Input ~ 0
+COL10
+Wire Wire Line
+	4100 8400 4450 8400
+Wire Wire Line
+	4100 8500 4450 8500
+Wire Wire Line
+	4100 8700 4450 8700
+Wire Wire Line
+	4100 8600 4450 8600
+Text GLabel 4450 8600 2    50   Input ~ 0
+COL11
+Text GLabel 4450 9600 2    50   Input ~ 0
+COL3
+Text GLabel 4450 9500 2    50   Input ~ 0
+COL4
+Text GLabel 4450 9400 2    50   Input ~ 0
+COL5
+Wire Wire Line
+	4100 8800 4450 8800
+Wire Wire Line
+	4100 8900 4450 8900
+Text GLabel 4450 8800 2    50   Input ~ 0
+COL12
+Text GLabel 4450 8900 2    50   Input ~ 0
+COL13
+Wire Wire Line
+	4100 7500 4450 7500
+Text GLabel 4450 7400 2    50   Input ~ 0
+ROW0
+Wire Wire Line
+	4100 7600 4450 7600
+Text GLabel 4450 7500 2    50   Input ~ 0
+ROW1
+Wire Wire Line
+	4100 7900 4450 7900
+Wire Wire Line
+	4100 8000 4450 8000
+Wire Wire Line
+	4100 7400 4450 7400
+Text GLabel 4450 7600 2    50   Input ~ 0
+ROW2
+Text GLabel 4450 7900 2    50   Input ~ 0
+ROW3
+Text GLabel 4450 8000 2    50   Input ~ 0
+ROW4
 $EndSCHEMATC
